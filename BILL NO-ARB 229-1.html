@@ -1,0 +1,874 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Accounting Voucher Display</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            text-indent: 0;
+        }
+
+        h1 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        .s1 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 10pt;
+        }
+
+        .s2 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 10pt;
+        }
+
+        .s3 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 10pt;
+        }
+
+        .s4 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9pt;
+        }
+
+        .s5 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9pt;
+        }
+
+        .s6 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 10pt;
+        }
+
+        .s7 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 12pt;
+        }
+
+        .s8 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 9pt;
+        }
+
+        .s9 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9pt;
+            vertical-align: 1pt;
+        }
+
+        .s10 {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: underline;
+            font-size: 9pt;
+        }
+
+        p {
+            color: black;
+            font-family: Arial, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            text-decoration: none;
+            font-size: 9pt;
+            margin: 0pt;
+        }
+
+        table,
+        tbody {
+            vertical-align: top;
+            overflow: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="padding-top: 3pt;text-indent: 0pt;text-align: center;">Tax Invoice</h1>
+    <p style="text-indent: 0pt;text-align: left;"><br /></p>
+    <table style="border-collapse:collapse;margin-left:6.0625pt" cellspacing="0">
+        <tr style="height:25pt">
+            <td style="width:270pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2" rowspan="3">
+                <p class="s1" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">ARYA
+                    SURGICALS</p>
+                <p class="s2" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">TC 28/76,Saravana Building,
+                    Kaithamukku Tvpm-24 GSTIN/UIN: 32BHUPP5070R1ZF</p>
+                <p class="s2" style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">State Name
+                    : Kerala, Code : 32</p>
+                <p style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;"><a
+                        href="mailto:aryasurgicals@gmail.com" class="s3" target="_blank">E-Mail :
+                        aryasurgicals@gmail.com</a></p>
+            </td>
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Invoice No.
+                </p>
+                <p class="s1"
+                    style="padding-top: 3pt;padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">
+                    ARB/229/24-25</p>
+            </td>
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Dated</p>
+                <p class="s1"
+                    style="padding-top: 3pt;padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">
+                    27-Sep-24</p>
+            </td>
+        </tr>
+        <tr style="height:25pt">
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Delivery
+                    Note</p>
+            </td>
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Mode/Terms
+                    of Payment</p>
+            </td>
+        </tr>
+        <tr style="height:25pt">
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Reference
+                    No. &amp; Date.</p>
+            </td>
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Other
+                    References</p>
+            </td>
+        </tr>
+        <tr style="height:26pt">
+            <td style="width:270pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2" rowspan="4">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Buyer (Bill
+                    to)</p>
+                <p class="s1" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Patient-Usha
+                    Rajan</p>
+                <p class="s2" style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">Dr Sameeh
+                </p>
+                <p class="s2" style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">State Name
+                    : Kerala, Code : 32</p>
+            </td>
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">Buyer&#39;s Order No.</p>
+            </td>
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">Dated</p>
+            </td>
+        </tr>
+        <tr style="height:25pt">
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Dispatch
+                    Doc No.</p>
+            </td>
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Delivery
+                    Note Date</p>
+            </td>
+        </tr>
+        <tr style="height:25pt">
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Dispatched
+                    through</p>
+            </td>
+            <td style="width:135pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Destination
+                </p>
+            </td>
+        </tr>
+        <tr style="height:75pt">
+            <td style="width:270pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="5">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Terms of
+                    Delivery</p>
+            </td>
+        </tr>
+        <tr style="height:23pt">
+            <td
+                style="width:16pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s2" style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">Sl</p>
+                <p class="s2" style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">No.</p>
+            </td>
+            <td
+                style="width:264pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 86pt;text-indent: 0pt;line-height: 10pt;text-align: left;">
+                    Description of Goods</p>
+            </td>
+            <td
+                style="width:53pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 6pt;text-indent: 0pt;line-height: 10pt;text-align: left;">HSN/SAC</p>
+            </td>
+            <td
+                style="width:53pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 9pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Quantity
+                </p>
+            </td>
+            <td
+                style="width:54pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 17pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Rate</p>
+            </td>
+            <td
+                style="width:23pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="text-indent: 0pt;line-height: 10pt;text-align: center;">per</p>
+            </td>
+            <td
+                style="width:77pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 22pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Amount</p>
+            </td>
+        </tr>
+        <tr style="height:18pt">
+            <td
+                style="width:16pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s2"
+                    style="padding-top: 5pt;padding-right: 3pt;text-indent: 0pt;line-height: 11pt;text-align: center;">1
+                </p>
+            </td>
+            <td
+                style="width:264pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1"
+                    style="padding-top: 5pt;padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">
+                    3.5mm Low Bend Distal Tibia Locking Plate</p>
+            </td>
+            <td
+                style="width:53pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-top: 5pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">90213100</p>
+            </td>
+            <td
+                style="width:53pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1"
+                    style="padding-top: 5pt;padding-right: 1pt;text-indent: 0pt;line-height: 11pt;text-align: right;">1
+                    Nos</p>
+            </td>
+            <td
+                style="width:54pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-top: 5pt;padding-left: 10pt;text-indent: 0pt;text-align: left;">13,000.00
+                </p>
+            </td>
+            <td
+                style="width:23pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-top: 5pt;padding-left: 2pt;text-indent: 0pt;text-align: center;">Nos</p>
+            </td>
+            <td
+                style="width:77pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1"
+                    style="padding-top: 5pt;padding-left: 30pt;text-indent: 0pt;line-height: 11pt;text-align: left;">
+                    13,000.00</p>
+            </td>
+        </tr>
+        <tr style="height:11pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s5" style="padding-left: 14pt;text-indent: 0pt;line-height: 10pt;text-align: left;">
+                    (Titanium)9 Hole Right</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+        </tr>
+        <tr style="height:13pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s2" style="padding-right: 3pt;text-indent: 0pt;line-height: 11pt;text-align: center;">2</p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">3.5mm
+                    Distal Fibula Plate(Titanium)</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">90213100</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-right: 1pt;text-indent: 0pt;line-height: 11pt;text-align: right;">1 Nos</p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 15pt;text-indent: 0pt;text-align: left;">9,000.00</p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: center;">Nos</p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-left: 35pt;text-indent: 0pt;line-height: 11pt;text-align: left;">9,000.00
+                </p>
+            </td>
+        </tr>
+        <tr style="height:11pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s5" style="padding-left: 14pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Locking
+                    Plate</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+        </tr>
+        <tr style="height:12pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s5" style="padding-left: 14pt;text-indent: 0pt;line-height: 10pt;text-align: left;">8 Hole</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+        </tr>
+        <tr style="height:13pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s2" style="padding-right: 3pt;text-indent: 0pt;line-height: 11pt;text-align: center;">3</p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">3.5mm
+                    Cortical Screw(Titanium)</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">90213100</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-right: 1pt;text-indent: 0pt;line-height: 11pt;text-align: right;">4 Nos</p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 23pt;text-indent: 0pt;text-align: left;">400.00</p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: center;">Nos</p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-left: 35pt;text-indent: 0pt;line-height: 11pt;text-align: left;">1,600.00
+                </p>
+            </td>
+        </tr>
+        <tr style="height:11pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s5" style="padding-left: 14pt;text-indent: 0pt;line-height: 10pt;text-align: left;">
+                    28mm-2,30mm-2</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+        </tr>
+        <tr style="height:13pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s2" style="padding-right: 3pt;text-indent: 0pt;line-height: 11pt;text-align: center;">4</p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-left: 2pt;text-indent: 0pt;line-height: 11pt;text-align: left;">3.5mm
+                    Locking Screw(Titanium)</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">90213100</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-right: 1pt;text-indent: 0pt;line-height: 11pt;text-align: right;">13 Nos
+                </p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 15pt;text-indent: 0pt;text-align: left;">1,000.00</p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: center;">Nos</p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-left: 30pt;text-indent: 0pt;line-height: 11pt;text-align: left;">13,000.00
+                </p>
+            </td>
+        </tr>
+        <tr style="height:11pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s5" style="padding-left: 14pt;text-indent: 0pt;line-height: 10pt;text-align: left;">
+                    14mm-3,16mm-5,44mm-4</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+        </tr>
+        <tr style="height:15pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s5" style="padding-left: 14pt;text-indent: 0pt;text-align: left;">46mm-1</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+        </tr>
+        <tr style="height:18pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                <p style="padding-left: 2pt;text-indent: 0pt;line-height: 1pt;text-align: left;" />
+                <p class="s2" style="padding-left: 30pt;text-indent: 0pt;text-align: left;">36,600.00</p>
+            </td>
+        </tr>
+        <tr style="height:15pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s6"
+                    style="padding-top: 2pt;padding-right: 2pt;text-indent: 0pt;line-height: 11pt;text-align: right;">
+                    CGST</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1"
+                    style="padding-top: 2pt;padding-left: 44pt;text-indent: 0pt;line-height: 11pt;text-align: left;">
+                    915.00</p>
+            </td>
+        </tr>
+        <tr style="height:90pt">
+            <td
+                style="width:16pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s6" style="padding-right: 2pt;text-indent: 0pt;line-height: 11pt;text-align: right;">SGST</p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:54pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-left: 44pt;text-indent: 0pt;text-align: left;">915.00</p>
+            </td>
+        </tr>
+        <tr style="height:14pt">
+            <td
+                style="width:16pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:264pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-right: 2pt;text-indent: 0pt;line-height: 10pt;text-align: right;">Total</p>
+            </td>
+            <td
+                style="width:53pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:53pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s1" style="padding-right: 1pt;text-indent: 0pt;line-height: 11pt;text-align: right;">19 Nos
+                </p>
+            </td>
+            <td
+                style="width:54pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:23pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:77pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s7" style="padding-left: 10pt;text-indent: 0pt;line-height: 13pt;text-align: left;">₹
+                    38,430.00</p>
+            </td>
+        </tr>
+        <tr style="height:28pt">
+            <td style="width:481pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt"
+                colspan="7">
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">Amount
+                    Chargeable (in words)</p>
+                <p class="s1" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">INR Thirty
+                    Eight Thousand Four Hundred Thirty Only</p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s5" style="padding-right: 2pt;text-indent: 0pt;line-height: 10pt;text-align: right;">E. &amp;
+                    O.E</p>
+            </td>
+        </tr>
+        <tr style="height:10pt">
+            <td style="width:291pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3" rowspan="2">
+                <p class="s4" style="padding-right: 13pt;text-indent: 0pt;line-height: 10pt;text-align: right;">Taxable
+                </p>
+                <p class="s4" style="padding-right: 16pt;text-indent: 0pt;line-height: 9pt;text-align: right;">Value</p>
+            </td>
+            <td
+                style="width:95pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="text-indent: 0pt;line-height: 9pt;text-align: center;">CGST</p>
+            </td>
+            <td style="width:95pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s4" style="padding-left: 18pt;text-indent: 0pt;line-height: 9pt;text-align: left;">SGST/UTGST
+                </p>
+            </td>
+            <td style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                rowspan="2">
+                <p class="s4" style="text-indent: 0pt;line-height: 10pt;text-align: center;">Total</p>
+                <p class="s4" style="text-indent: 0pt;line-height: 9pt;text-align: center;">Tax Amount</p>
+            </td>
+        </tr>
+        <tr style="height:10pt">
+            <td
+                style="width:36pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 1pt;text-indent: 0pt;line-height: 9pt;text-align: center;">Rate</p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 13pt;text-indent: 0pt;line-height: 9pt;text-align: left;">Amount</p>
+            </td>
+            <td
+                style="width:36pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 8pt;text-indent: 0pt;line-height: 9pt;text-align: left;">Rate</p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 13pt;text-indent: 0pt;line-height: 9pt;text-align: left;">Amount</p>
+            </td>
+        </tr>
+        <tr style="height:10pt">
+            <td style="width:291pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s4" style="padding-right: 1pt;text-indent: 0pt;line-height: 9pt;text-align: right;">36,600.00
+                </p>
+            </td>
+            <td
+                style="width:36pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 5pt;text-indent: 0pt;line-height: 9pt;text-align: center;">2.50%</p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 28pt;text-indent: 0pt;line-height: 9pt;text-align: left;">915.00</p>
+            </td>
+            <td
+                style="width:36pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 7pt;text-indent: 0pt;line-height: 9pt;text-align: left;">2.50%</p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-left: 28pt;text-indent: 0pt;line-height: 9pt;text-align: left;">915.00</p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s4" style="padding-right: 2pt;text-indent: 0pt;line-height: 9pt;text-align: right;">1,830.00
+                </p>
+            </td>
+        </tr>
+        <tr style="height:11pt">
+            <td style="width:291pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="3">
+                <p class="s8" style="padding-right: 1pt;text-indent: 0pt;line-height: 10pt;text-align: right;">Total:
+                    36,600.00</p>
+            </td>
+            <td
+                style="width:36pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s8" style="padding-left: 28pt;text-indent: 0pt;line-height: 10pt;text-align: left;">915.00</p>
+            </td>
+            <td
+                style="width:36pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s8" style="padding-left: 28pt;text-indent: 0pt;line-height: 10pt;text-align: left;">915.00</p>
+            </td>
+            <td
+                style="width:59pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+                <p class="s8" style="padding-right: 2pt;text-indent: 0pt;line-height: 10pt;text-align: right;">1,830.00
+                </p>
+            </td>
+        </tr>
+        <tr style="height:88pt">
+            <td style="width:540pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="7">
+                <p class="s9" style="padding-top: 5pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">Tax Amount
+                    (in words) : <span class="s1">INR One Thousand Eight Hundred Thirty Only</span></p>
+                <p class="s4"
+                    style="padding-top: 6pt;padding-left: 272pt;text-indent: 0pt;line-height: 10pt;text-align: left;">
+                    Company&#39;s Bank Details</p>
+                <p class="s4" style="padding-left: 272pt;text-indent: 0pt;line-height: 11pt;text-align: left;">A/c
+                    Holder&#39;s Name : <b>ARYA SURGICALS</b></p>
+                <p class="s4" style="padding-left: 272pt;text-indent: 0pt;line-height: 11pt;text-align: left;">Bank Name
+                    : <b>Canara Bank</b></p>
+                <p class="s4" style="padding-left: 272pt;text-indent: 0pt;line-height: 11pt;text-align: left;">A/c No. :
+                    <b>40051400000482</b></p>
+                <p class="s4" style="padding-left: 272pt;text-indent: 0pt;line-height: 11pt;text-align: left;">Branch
+                    &amp; IFS Code : <b>Westfort &amp; CNRB0014005</b></p>
+                <p class="s4" style="padding-left: 272pt;text-indent: 0pt;line-height: 10pt;text-align: left;">SWIFT
+                    Code :</p>
+            </td>
+        </tr>
+        <tr style="height:42pt">
+            <td style="width:270pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="2">
+                <p class="s10" style="padding-left: 2pt;text-indent: 0pt;line-height: 10pt;text-align: left;">
+                    Declaration</p>
+                <p class="s4" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">We declare that this invoice
+                    shows the actual price of the goods described and that all particulars are true and correct.</p>
+            </td>
+            <td style="width:270pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt"
+                colspan="5">
+                <p class="s8" style="padding-left: 172pt;text-indent: 0pt;line-height: 10pt;text-align: left;">for ARYA
+                    SURGICALS</p>
+                <p style="text-indent: 0pt;text-align: left;"><br /></p>
+                <p class="s4" style="padding-right: 2pt;text-indent: 0pt;line-height: 9pt;text-align: right;">Authorised
+                    Signatory</p>
+            </td>
+        </tr>
+    </table>
+    <p style="padding-top: 5pt;text-indent: 0pt;text-align: center;">This is a Computer Generated Invoice</p>
+</body>
+
+</html>
